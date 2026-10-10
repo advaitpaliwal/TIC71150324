@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "expected_sectors": [
+    5,
+    32,
+    98
+  ],
+  "sectors": [
+    5,
+    32,
+    98
+  ],
+  "coverage_complete": true,
+  "neighbours": 7,
+  "preferred_neighbours": 0,
+  "below_25": 0,
+  "minimum_delta_chi2": 45.949973544090625
+}

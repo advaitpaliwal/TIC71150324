@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "TIC 71150324.01: a temperate 2.5 Earth-radius planet candidate on an 8.4-day orbit"
+message: "If you use this candidate or data, please cite it as below."
+authors:
+  - family-names: Paliwal
+    given-names: Advait
+    email: advaitpaliwal@gmail.com
+date-released: 2026-10-10
+license: CC-BY-4.0

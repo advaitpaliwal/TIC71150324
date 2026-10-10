@@ -1,0 +1,124 @@
+{
+  "model": "post.py:39-41; fit.model(componentwise median of chain.npz chain)",
+  "residual": "(f - model) * 1e6; no f0 renormalization, matching post.py",
+  "primary_weighting": "1 / (e^2 + exp(2*median_lns_group)), matching fit.py:51",
+  "error": "conditional independent-white-noise standard error sqrt(1/sum(weights)); excludes model-parameter uncertainty and time-correlated noise",
+  "window_bounds": "inclusive, phase in hours about median T0 and P",
+  "chain_samples": 144000,
+  "median_T0_BTJD": 4256.449205137374,
+  "median_P_days": 8.422169045555382,
+  "median_jitter_ppm": {
+    "spoc1800": 41.94311177668016,
+    "spoc600": 20.525726390455368,
+    "qlp200": 18.576794274053555,
+    "tesscut200": 4020.4916623426707
+  },
+  "groups": {
+    "pipeline": {
+      "sectors": [
+        5,
+        32,
+        98
+      ],
+      "windows": {
+        "post_egress": {
+          "hours": [
+            1.4,
+            1.9
+          ],
+          "fit_variance_weighted": {
+            "n": 39,
+            "mean_ppm": -24.591281959436873,
+            "error_ppm": 488.76662945150554
+          },
+          "measurement_error_only_weighted": {
+            "n": 39,
+            "mean_ppm": -24.624360632127015,
+            "error_ppm": 488.6850135619131
+          },
+          "counts_by_sector": {
+            "5": 3,
+            "32": 9,
+            "98": 27
+          }
+        },
+        "pre_ingress": {
+          "hours": [
+            -1.9,
+            -1.4
+          ],
+          "fit_variance_weighted": {
+            "n": 43,
+            "mean_ppm": -82.87082083750543,
+            "error_ppm": 478.722664983419
+          },
+          "measurement_error_only_weighted": {
+            "n": 43,
+            "mean_ppm": -83.02836881755638,
+            "error_ppm": 478.64613959783037
+          },
+          "counts_by_sector": {
+            "5": 3,
+            "32": 9,
+            "98": 31
+          }
+        }
+      },
+      "post_minus_pre_ppm": 58.279538878068564,
+      "post_minus_pre_error_ppm": 684.1551052460343
+    },
+    "tesscut": {
+      "sectors": [
+        106,
+        107,
+        108
+      ],
+      "windows": {
+        "post_egress": {
+          "hours": [
+            1.4,
+            1.9
+          ],
+          "fit_variance_weighted": {
+            "n": 81,
+            "mean_ppm": -2509.4335484441644,
+            "error_ppm": 675.934612414745
+          },
+          "measurement_error_only_weighted": {
+            "n": 81,
+            "mean_ppm": -2630.405118448803,
+            "error_ppm": 506.55963631823886
+          },
+          "counts_by_sector": {
+            "106": 27,
+            "107": 36,
+            "108": 18
+          }
+        },
+        "pre_ingress": {
+          "hours": [
+            -1.9,
+            -1.4
+          ],
+          "fit_variance_weighted": {
+            "n": 72,
+            "mean_ppm": -108.09688045209147,
+            "error_ppm": 719.6394163209632
+          },
+          "measurement_error_only_weighted": {
+            "n": 72,
+            "mean_ppm": -104.27667856023169,
+            "error_ppm": 540.9701023019668
+          },
+          "counts_by_sector": {
+            "106": 18,
+            "107": 36,
+            "108": 18
+          }
+        }
+      },
+      "post_minus_pre_ppm": -2401.3366679920728,
+      "post_minus_pre_error_ppm": 987.3036461915088
+    }
+  }
+}

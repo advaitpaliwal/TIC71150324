@@ -1,0 +1,188 @@
+{
+  "source": "work/deep/71150324/sectors/results.json",
+  "method": "multiply each group error by sqrt(max(1,chi2r)); never shrink errors",
+  "pooled_groups": {
+    "primary": {
+      "depth_ppm": 2147.8,
+      "err_ppm": 255.09788552632102,
+      "snr": 8.419513143233758,
+      "original_chi2r": 2.62
+    },
+    "odd": {
+      "depth_ppm": 2133.9,
+      "err_ppm": 332.41282014988536,
+      "snr": 6.419427502939934,
+      "original_chi2r": 2.7
+    },
+    "even": {
+      "depth_ppm": 2169.3,
+      "err_ppm": 431.06120493498366,
+      "snr": 5.0324640101333005,
+      "original_chi2r": 2.94
+    },
+    "phase0.5": {
+      "depth_ppm": -69.1,
+      "err_ppm": 387.6898734813691,
+      "snr": -0.17823524607309785,
+      "original_chi2r": 6.2
+    },
+    "oe_sigma": 0.06503222435763283
+  },
+  "sector_groups": {
+    "primary": {
+      "depth_ppm": 1846.0809933615576,
+      "err_ppm": 187.7013788752578,
+      "snr": 9.835202087611846,
+      "groups": {
+        "SPOC_S5": {
+          "depth_ppm": 3019.9,
+          "err_ppm": 538.4045185545901,
+          "snr": 5.6089796722124,
+          "original_chi2r": 2.49
+        },
+        "SPOC_S32": {
+          "depth_ppm": 1832.6,
+          "err_ppm": 403.6,
+          "snr": 4.540634291377601,
+          "original_chi2r": 0.31
+        },
+        "QLP_q0_S98": {
+          "depth_ppm": 1910.5,
+          "err_ppm": 401.4101847238059,
+          "snr": 4.759470667926719,
+          "original_chi2r": 1.16
+        },
+        "TESSCUT_SAP_S106": {
+          "depth_ppm": 1202.3,
+          "err_ppm": 449.1,
+          "snr": 2.6771320418615003,
+          "original_chi2r": 0.89
+        },
+        "TESSCUT_SAP_S107": {
+          "depth_ppm": 2898.8,
+          "err_ppm": 574.9120837136753,
+          "snr": 5.042162240311678,
+          "original_chi2r": 2.9
+        },
+        "TESSCUT_SAP_S108": {
+          "depth_ppm": 899.4,
+          "err_ppm": 466.0,
+          "snr": 1.9300429184549355,
+          "original_chi2r": 0.35
+        }
+      }
+    },
+    "odd": {
+      "depth_ppm": 2143.340143768281,
+      "err_ppm": 206.50927330724787,
+      "snr": 10.378905070182416,
+      "groups": {
+        "SPOC_S5": {
+          "depth_ppm": 3689.7,
+          "err_ppm": 454.6,
+          "snr": 8.11636603607567,
+          "original_chi2r": 0.0
+        },
+        "SPOC_S32": {
+          "depth_ppm": 1608.1,
+          "err_ppm": 494.0,
+          "snr": 3.2552631578947366,
+          "original_chi2r": 0.0
+        },
+        "QLP_q0_S98": {
+          "depth_ppm": 1910.5,
+          "err_ppm": 401.4101847238059,
+          "snr": 4.759470667926719,
+          "original_chi2r": 1.16
+        },
+        "TESSCUT_SAP_S107": {
+          "depth_ppm": 2652.4,
+          "err_ppm": 519.8,
+          "snr": 5.102731819930743,
+          "original_chi2r": 0.43
+        },
+        "TESSCUT_SAP_S108": {
+          "depth_ppm": 899.4,
+          "err_ppm": 466.0,
+          "snr": 1.9300429184549355,
+          "original_chi2r": 0.35
+        }
+      }
+    },
+    "even": {
+      "depth_ppm": 1816.0328129220734,
+      "err_ppm": 296.2448086902074,
+      "snr": 6.130175988404093,
+      "groups": {
+        "SPOC_S5": {
+          "depth_ppm": 2156.2,
+          "err_ppm": 516.3,
+          "snr": 4.1762541158241335,
+          "original_chi2r": 0.0
+        },
+        "SPOC_S32": {
+          "depth_ppm": 2283.2,
+          "err_ppm": 700.0,
+          "snr": 3.2617142857142856,
+          "original_chi2r": 0.0
+        },
+        "TESSCUT_SAP_S106": {
+          "depth_ppm": 1202.3,
+          "err_ppm": 449.1,
+          "snr": 2.6771320418615003,
+          "original_chi2r": 0.89
+        },
+        "TESSCUT_SAP_S107": {
+          "depth_ppm": 3078.6,
+          "err_ppm": 1245.856835555354,
+          "snr": 2.4710704409529374,
+          "original_chi2r": 7.87
+        }
+      }
+    },
+    "phase0.5": {
+      "depth_ppm": 17.913604367871972,
+      "err_ppm": 176.89354216593674,
+      "snr": 0.10126771248137446,
+      "groups": {
+        "SPOC_S5": {
+          "depth_ppm": 86.5,
+          "err_ppm": 297.9,
+          "snr": 0.2903658945955019,
+          "original_chi2r": 0.44
+        },
+        "SPOC_S32": {
+          "depth_ppm": -159.7,
+          "err_ppm": 420.2,
+          "snr": -0.3800571156592099,
+          "original_chi2r": 0.05
+        },
+        "QLP_q0_S98": {
+          "depth_ppm": -355.1,
+          "err_ppm": 354.64,
+          "snr": -1.0012970900067675,
+          "original_chi2r": 1.21
+        },
+        "TESSCUT_SAP_S106": {
+          "depth_ppm": 509.7,
+          "err_ppm": 385.4,
+          "snr": 1.322522055007784,
+          "original_chi2r": 0.39
+        },
+        "TESSCUT_SAP_S107": {
+          "depth_ppm": -504.3,
+          "err_ppm": 4420.829757432421,
+          "snr": -0.1140736078226394,
+          "original_chi2r": 63.38
+        },
+        "TESSCUT_SAP_S108": {
+          "depth_ppm": -275.1,
+          "err_ppm": 1853.2434861345123,
+          "snr": -0.1484424480961228,
+          "original_chi2r": 16.21
+        }
+      }
+    },
+    "oe_sigma": 0.9063692635536396
+  }
+}

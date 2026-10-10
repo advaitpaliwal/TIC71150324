@@ -1,0 +1,60 @@
+{
+  "107": {
+    "source": "work/deep/71150324/sectors/tesscut/tess-s0107-3-4_67.375172_-16.915539_15x15_astrocut.fits",
+    "n_flag32": 10,
+    "events": [
+      {
+        "epoch": 335,
+        "nearest_flag32_d": 2.7882459141128493
+      },
+      {
+        "epoch": 336,
+        "nearest_flag32_d": 3.1771499507949557
+      },
+      {
+        "epoch": 337,
+        "nearest_flag32_d": 2.0286156219917757
+      },
+      {
+        "epoch": 338,
+        "nearest_flag32_d": 6.388942329262136
+      }
+    ]
+  },
+  "106": {
+    "source": "work/deep/71150324/sectors/tesscut/tess-s0106-4-4_67.375172_-16.915539_15x15_astrocut.fits",
+    "n_flag32": 10,
+    "events": [
+      {
+        "epoch": 332,
+        "nearest_flag32_d": 0.6431458482911694
+      },
+      {
+        "epoch": 333,
+        "nearest_flag32_d": 0.040901959504481056
+      },
+      {
+        "epoch": 334,
+        "nearest_flag32_d": 1.5405472908851152
+      }
+    ]
+  },
+  "108": {
+    "source": "work/deep/71150324/sectors/tesscut/tess-s0108-2-2_67.375172_-16.915539_15x15_astrocut.fits",
+    "n_flag32": 9,
+    "events": [
+      {
+        "epoch": 339,
+        "nearest_flag32_d": 0.5782808674348416
+      },
+      {
+        "epoch": 340,
+        "nearest_flag32_d": 2.2639047186994503
+      },
+      {
+        "epoch": 341,
+        "nearest_flag32_d": 3.4912140785027077
+      }
+    ]
+  }
+}

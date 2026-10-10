@@ -1,0 +1,109 @@
+{
+  "tic": 71150324,
+  "P": 8.422187911756147,
+  "T0": 1443.4437448219462,
+  "duration_days": 0.08173062269943837,
+  "baseline_days": 0.5,
+  "available": [
+    "spoc_5",
+    "qlp_5",
+    "spoc_32",
+    "qlp_32",
+    "qlp_98"
+  ],
+  "missing": [
+    {
+      "product": "spoc",
+      "sector": 98,
+      "error": "[Errno 2] No such file or directory: 'work/hunt7/lc/71150324/spoc_s98.fits'"
+    }
+  ],
+  "combined": {
+    "qlp": {
+      "raw": {
+        "depth_ppm": 2161.7243757119963,
+        "err_ppm": 275.0988555575612,
+        "events": 9
+      },
+      "corrected": {
+        "depth_ppm": 1950.5694260330313,
+        "err_ppm": 274.2466115575923,
+        "events": 9
+      }
+    },
+    "spoc": {
+      "raw": {
+        "depth_ppm": 2653.922567056649,
+        "err_ppm": 322.9228644397369,
+        "events": 6
+      },
+      "corrected": {
+        "depth_ppm": 2555.101873152252,
+        "err_ppm": 325.4207216605295,
+        "events": 6
+      }
+    }
+  },
+  "per_sector": {
+    "qlp_5": {
+      "raw": {
+        "depth_ppm": 2352.030695168419,
+        "err_ppm": 494.1183367608158,
+        "events": 3
+      },
+      "corrected": {
+        "depth_ppm": 2190.0680991525987,
+        "err_ppm": 488.1859383981866,
+        "events": 3
+      }
+    },
+    "qlp_32": {
+      "raw": {
+        "depth_ppm": 1620.3006108621214,
+        "err_ppm": 478.7347996557815,
+        "events": 3
+      },
+      "corrected": {
+        "depth_ppm": 1571.4837579885766,
+        "err_ppm": 478.7892140180572,
+        "events": 3
+      }
+    },
+    "qlp_98": {
+      "raw": {
+        "depth_ppm": 2494.646723317353,
+        "err_ppm": 458.6096397661003,
+        "events": 3
+      },
+      "corrected": {
+        "depth_ppm": 2087.5024946441904,
+        "err_ppm": 459.4270716930883,
+        "events": 3
+      }
+    },
+    "spoc_5": {
+      "raw": {
+        "depth_ppm": 3182.5016576454946,
+        "err_ppm": 482.3073186754737,
+        "events": 3
+      },
+      "corrected": {
+        "depth_ppm": 3041.9809415393165,
+        "err_ppm": 478.2126137796444,
+        "events": 3
+      }
+    },
+    "spoc_32": {
+      "raw": {
+        "depth_ppm": 2224.4439296650753,
+        "err_ppm": 434.75005503851764,
+        "events": 3
+      },
+      "corrected": {
+        "depth_ppm": 2135.1947332336413,
+        "err_ppm": 444.1064747347187,
+        "events": 3
+      }
+    }
+  }
+}
